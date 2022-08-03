@@ -1,0 +1,452 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+
+	font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	text-align: center;
+	justify-content: center;
+
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	color: #0048BA;
+	padding-top: 15px;
+	padding-left: 20px;
+	padding-right: 15px;
+}
+
+nav ul li{
+	display: inline-flex;
+	margin-right: 20px;
+	list-style: none;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+nav a:hover{
+
+	color: white;
+	background:#0048BA ;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	transition: 0.4s ease-out;
+
+}
+
+hr{
+	border: 0.9 solid #0048BA;
+	margin-top: 20px;
+
+}
+
+#active{
+	background:#0048BA;
+	color: white;
+}
+.active{
+	color: #0048BA ;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 1px solid #0048BA;
+}
+
+/* Section One */
+
+h2{
+	color: #0048BA;
+	padding-top: 25px;
+}
+body p{
+	margin-top: 30px;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+h6{
+	margin-top: 30px;
+}
+h6 a{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	background: #0048BA;
+	border: 1px solid #0048BA;
+	color: white;
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 14px;
+	border-radius: 3px;
+}
+h6 a:hover{
+	background: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 35px;
+	padding-right: 35px;
+	color:#0048BA ;
+	transition: 0.4s ease-out;
+}
+
+img{
+
+	width: 50%;
+	margin-top: 50px;
+}
+
+/* Section-Two_Offer*/
+
+h3{
+	padding-top: 40px;
+}
+
+.clmn{
+	display: flex;
+	justify-content: center;
+	text-align: left;
+	column-gap: 8em;
+	padding-top: 30px;
+	}
+.row{
+
+	width: 35%;
+	display: grid;
+	grid-gap: 20px;
+}
+.row-dtl:hover{
+
+	background: #0048BA;
+	padding: 15px;
+	color: white;
+	font-size: 22px;
+	transition: 0.4s ease-out;
+}
+.row-dtl h5{
+
+	font-weight: normal;
+	font-size: 15px;
+}
+
+.row-dtl i{
+
+	font-size: 26px;
+	padding-bottom: 10px;
+	color: blue;
+}
+
+/* SECTION THREE */
+
+.section-three{
+	display: flex;
+	justify-content: center;
+	text-align: left;
+	margin-top: 40px;
+}
+.clmn-three{
+	width: 40%;
+	line-height:35px;
+}
+
+.clmn-three,h6,h2{
+
+	font-size: 18px;
+	color: black;
+}
+
+.clmn-three h5{
+	font-size: 14px;
+	font-weight: lighter;
+}
+
+/* Section Four */
+
+.section-four{
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+.holder{
+	width: 95%;
+	height: 130vh;
+	background: #dddddd;
+	display: grid;
+	position: relative;
+}
+
+.j-holder{
+	background: #0048BA;
+	width: 90%;
+	height: 8vh;
+	align-items: center;
+	position: absolute;
+	top: 20%;
+	left: 5%;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	text-align: left;
+
+}
+
+.j-holder-one{
+	background: white;
+	width: 90%;
+	height: 8vh;
+	align-items: center;
+	position: absolute;
+	top: 40%;
+	left: 5%;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	text-align: left;
+}
+
+.j-holder-two{
+	background: white;
+	width: 90%;
+	height: 8vh;
+	align-items: center;
+	position: absolute;
+	top: 60%;
+	left: 5%;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	text-align: left;
+}
+.j-holder-three{
+	background: white;
+	width: 90%;
+	height: 8vh;
+	align-items: center;
+	position: absolute;
+	top: 80%;
+	left: 5%;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	text-align: left;
+}
+
+#holder{
+	position: absolute;
+	top: 90%;
+	left: 45%;
+}
+footer{
+	background: #0048BA;
+	position: relative;
+	width: 100%;
+	height: 35vh;
+	color: white;
+	display: flex;	
+	justify-content: center;
+	column-gap: 90px;
+	list-style: none;
+	padding-top: 30PX;
+}
+.ham{
+	display: none;
+}
+.close i{
+	color: black;
+	display: none;
+}
+#check{
+		display: none;
+	}
+
+.footer-row{
+
+	text-align: left;
+	display: block;
+}
+.socials{
+	display: flex;
+	column-gap: 30px;
+}
+.footer-row li{
+	padding-bottom: 15px;
+	font-size: 14px;
+}
+
+.footer-row,h5{
+	padding-bottom: 15px;
+	font-size: 16px;
+}
+.trademark{
+	position: absolute;
+	top: 90%;
+	font-size: 14px;
+}
+
+/* Media Queries */
+
+@media(max-width: 480px){
+	 ul{
+	 	position: fixed;
+	 	background: #0048BA;
+	 	width: 100%;
+	 	height: 45vh;
+	 	top: 100%;
+	 	left: 0;
+	 	transition: 0.4s ease-in;
+	 	padding-top: 50px;
+	 	
+	 }
+	 nav ul li{
+		display: block;
+		margin-bottom: 15px;
+	}
+	nav ul li a{
+	text-decoration: none;
+	color: white;
+	}
+	nav a:hover{
+	color: black;
+	background:none ;
+	font-size: 20px;
+	transition: 0.4s ease-out;
+	cursor: pointer;
+	}
+	#active{
+	display: none;
+	}
+	.active{
+	color: black ;
+	border: 1px solid white;
+	}
+
+	.ham{
+		display: block;
+	}
+	.close i{
+	color: white;
+	display: block;
+	position: absolute;
+	top: 4%;
+	left: 90%;
+	font-size: 22px;
+	}
+
+	#check{
+		display: none;
+	}
+	#hide{
+
+	display: none;
+	}
+
+	#check:checked ~ ul{
+
+		top: -0;
+	}
+	nav h1{
+		font-size: 16px;
+	}
+	body p{
+	padding-left: 10%;
+	padding-right: 10%;
+	}
+	img{
+	width: 80%;
+	}
+	.clmn{
+	display: grid;
+	justify-content: center;
+	text-align: center;
+	grid-gap: 1.4em;
+	padding-top: 30px;
+	}
+	.row{
+	width: 100%;
+	}
+	.section-three{
+	display: grid;
+	text-align: center;
+	margin-top: 20px;
+	}
+	.clmn-three{
+	width: 100%;
+	}
+	.clmn-three,h6{
+	font-size: 16px;
+	}
+	.clmn-three h2{
+		font-size: 16px;
+		text-align: right;
+		padding-right: 10px;
+	}
+	.clmn-three h5{
+	font-size: 14px;
+	text-align: right;
+	padding-right: 10px;
+	}
+
+	.holder{
+	width: 95%;
+	height: 90vh;
+	}
+	.j-holder{
+	width: 85%;
+	top: 15%;
+	}
+
+	.j-holder-one{
+	width: 85%;
+	top: 30%;
+	}
+
+	.j-holder-two{
+	width: 85%;
+	top: 45%;
+	}
+	.j-holder-three{
+	width: 85%;
+	top: 60%;
+	}
+
+	#holder{
+	position: absolute;
+	top: 80%;
+	left: 30%;
+	}
+	footer{
+	column-gap: 20px;
+	height: 30vh;
+	}
+	.footer-row li{
+	padding-bottom: 10px;
+	font-size: 12px;
+	}
+	.footer-row,h5{
+	padding-bottom: 10px;
+	font-size: 14px;
+	}
+	.trademark{
+	position: absolute;
+	top: 84%;
+	font-size: 14px;
+	}
+	.socials{
+	column-gap: 20px;
+	}
+
+
+
+
+
+
